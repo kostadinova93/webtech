@@ -1,0 +1,382 @@
+html, body {
+    width: 100%;
+    font-family: 'Barlow';
+
+}
+
+#root {
+    margin: 0px;
+    padding-bottom:30px;  
+    min-height:100%;
+    position:relative;
+}
+
+#kopf {
+    background-color: gainsboro 10px 20px 0 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 4px;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+h3 {
+    margin: 4px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 8px 1px 1px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.small {
+    font-size: 0.87rem;
+}
+
+.paddingTop7px {
+    padding-top: 7px;
+}
+
+.paddingTop10px {
+    padding-top: 10px;
+}
+
+#steuerung {
+    background-color: #3388ff;
+    color: white;
+    font-size: 15px;
+    margin: 0%;
+    line-height: 24px;
+    height: 30px;
+    padding-left: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.whitelink {
+    color: white;
+}
+
+a.whitelink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#steuerung li {
+    color: white !important;
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+#inhalt {
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    height: 30px;
+}
+
+#suchfeld {
+    text-align: center;
+    width: 100px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+#suchbox {
+    padding: 3px 0px 3px 0px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 620px;
+}
+
+#filterbox {
+    height: 50%;
+    padding: 0px;
+    border: 1px solid gray;
+    border-top: 0px solid;
+    border-radius: 5px;
+    outline: 0;
+}
+
+input#suchfeld {
+    border-bottom: 1px solid rgb(214, 213, 213);
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+
+#suchbox, #filterbox {
+    width: 100%;
+    width: 45%;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 7px;
+}
+
+.filterentry {
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    margin: 0px 0px 0px -4px;
+    text-align: center;
+}
+
+.filterentry:last-child {
+    border-bottom: none;
+}
+
+#filter_2nd .filterentry {
+    border-bottom: none;
+}
+
+.filterentry {
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.filterEntrySelected {
+    background: #3388ff;
+    color: white;
+}
+
+
+.detailentry {
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.detailEntryList {
+    font-size: 1.34rem;
+    margin: 5px;
+}
+
+.filterentry:hover,.detailEntryList:hover{
+    background: #3388ff;
+    color: white;
+    font-weight: bold;
+
+}
+
+#filter_2nd {
+    text-align: center;
+}
+
+#headerlogo {
+    max-width: 34%;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+#ideaimage {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+#geschenk {
+    padding: 3px 0px 3px 0px;
+    border: 4px solid gray;
+    border-radius: 11px;
+    width: 45%;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 7px;
+}
+
+.centerbox {
+    margin: 0 auto;
+    padding: 3px;
+}
+
+#filter {
+    display: none;
+}
+
+button:hover {
+    text-decoration: underline;
+    height: 2.1rem;
+}
+
+button {
+    background-color: #3388ff;
+    border: medium solid #1E88E5;
+    height: 2rem;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px 0px grey;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+
+input {
+    height: 1.76rem;
+    border-radius: 6px;
+    font-size: 1.04rem;
+    outline: transparent;
+    padding: 1px 3px;
+    margin: 5px;
+}
+
+select {
+    height: 1.76rem;
+    border-radius: 6px;
+    font-size: 1.04rem;
+    outline: transparent;
+    padding: 1px 3px;
+    margin: 5px;
+}
+
+#buttonupload {
+    width: 200px;
+    border: medium solid black
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.alignright {
+    text-align: right
+}
+
+.alignleft {
+    text-align: left
+}
+
+.inline {
+    display: inline;
+}
+
+table {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tagchip {
+    /* border: 3px solid rgb(117, 117, 117);
+    border-radius: 9px;
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(231, 231, 231);
+    height: 31px;*/
+    border: 0px solid rgb(117, 117, 117);
+    border-radius: 3px;
+    text-align: center;
+    margin: 3px;
+    background-color: #38f;
+    height: 31px;
+    color: white;
+    box-shadow: 2px 2px 0px 0px #00000026;
+}
+
+.tagchip.noRemove {
+    padding-right: 0px;
+    background-color: #77abd8;
+    height: 25px;
+    margin: 1px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.tagclose {
+    /*display: inline;
+    border-radius: 10px;
+    float: right;
+    width: 19px;
+    height: 17px;
+    background-color: #ffffff;*/
+    display: inline;
+    border-radius: 10px;
+    float: right;
+    width: 19px;
+    height: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+.tagname {
+    display: inline;
+    margin: 5px;
+    padding-right: 10px;
+}
+
+.closemap {
+    background-color: #3388ff;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.leaflet-routing-alt table {
+    display: none
+}
+
+.ideacard {
+    position: absolute;
+}
+
+.innerIdeacard {
+    position: relative;
+    background-color: #f8f9fb;
+    min-width: 70%;
+    max-width: 620px;
+    padding-bottom: 50px;
+    border-radius: 3px;
+    box-shadow: 4px 3px 9px #ececec;
+}
+
+@media (min-width: 600px) { 
+    .innerIdeacard {
+    left: -50%;
+
+    }
+
+    .ideacard {
+        left: 50%;
+    }
+ }
+#startmessage {}
+
+.noopacity {
+    opacity: 0;
+}
+
+.mapAdressBox {
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    font-family: 'Barlow';
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+}

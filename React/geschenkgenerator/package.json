@@ -1,0 +1,39 @@
+{
+  "name": "geschenkgenerator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-ui-dist": "^1.12.1",
+    "leaflet": "^1.5.1",
+    "leaflet-control-custom": "^1.0.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "radium": "^0.25.2",
+    "react": "^16.8.6",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-easy-swipe": "0.0.18",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
